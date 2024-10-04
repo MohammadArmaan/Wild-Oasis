@@ -53,7 +53,7 @@ function Sidebar({ toggleSidebar }) {
       </CloseButton>
       <Logo />
       <MainNav toggleSidebar={toggleSidebar} />
-      <Uploader />
+      {/* <Uploader /> */}
     </StyledSidebar>
   );
 }
