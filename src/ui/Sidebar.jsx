@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { HiX } from "react-icons/hi";
 import Logo from "./Logo";
 import MainNav from "./MainNav";
-import Uploader from '../data/Uploader'
+// import Uploader from '../data/Uploader'
 
 const StyledSidebar = styled.aside`
   background-color: var(--color-grey-0); 
@@ -53,7 +53,7 @@ function Sidebar({ toggleSidebar }) {
       </CloseButton>
       <Logo />
       <MainNav toggleSidebar={toggleSidebar} />
-      <Uploader />
+      {/* <Uploader /> */}
     </StyledSidebar>
   );
 }
