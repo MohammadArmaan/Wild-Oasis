@@ -22,11 +22,11 @@ const StyledStat = styled.div`
     }
 
     @media (max-width: 416px) {
-        width: 70%;
+        width: 100%;
     }
 
     @media (max-width: 375px) {
-        width: 85%;
+        width: 100%;
     }
 `;
 

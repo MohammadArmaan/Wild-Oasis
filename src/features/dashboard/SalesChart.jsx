@@ -32,12 +32,12 @@ const StyledSalesChart = styled(DashboardBox)`
     }
 
     @media (max-width: 516px) {
-        width: 90%;
+        width: 100%;
     }
 
     @media (max-width: 375px) {
             font-size: 0.9rem;
-            width: 85%
+            width: 100%
         }
 `;
 

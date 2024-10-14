@@ -34,14 +34,14 @@ const StyledToday = styled.div`
     }
 
     @media (max-width: 516px) {
-        width: 90%;
+        width: 100%;
         gap: 1rem;
         justify-content: center;
         align-items: center;
     }
 
     @media (max-width: 375px) {
-        width: 85%;
+        width: 100%;
         gap: 0;
     }
 `;

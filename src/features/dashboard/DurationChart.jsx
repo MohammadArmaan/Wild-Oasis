@@ -47,8 +47,23 @@ const ChartBox = styled.div`
         }
 
         & .recharts-wrapper {
-            width: 100%;
+            width: 75%;
             height: 300px;
+        }
+
+        & .recharts-legend-item-text {
+            font-size: 1rem;
+        }
+
+        & .recharts-legend-item {
+            margin-left: 3.5rem;
+            white-space: nowrap;
+        }
+
+        & .recharts-wrapper{
+            object-fit: cover;
+            height: 200px;
+            width: 100%;
         }
     }
 
